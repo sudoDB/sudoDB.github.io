@@ -29,25 +29,24 @@
   border-radius: 20px;
 }
 
-#experience_block{
-  display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px 2em;
+#project_block{
   color: var(--text-primary);
   background-color: var(--bg-article);
-  align-self: center;
   text-align: center;
-  justify-content: space-between;
   border: 1px solid black ;
+  max-block-size: 50%;
   border-radius: 20px;
 }
 
-#experience_block :first-child{
-  align-items: center;
+#experience_block{
+  color: var(--text-primary);
+  background-color: var(--bg-article);
   text-align: center;
+  border: 1px solid black ;
+  max-block-size: 50%;
+  border-radius: 20px;
 }
   
-
 a{
   color: var(--text-primary);
 }
