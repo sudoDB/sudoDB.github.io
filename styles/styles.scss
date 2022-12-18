@@ -19,16 +19,17 @@ html{
 }
 
 
+
 // Body
 body {
-  background: #d6d6d6;
+  background: #8D83A5;
   margin: 0;
   padding: 0;
   min-height: 100%;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lucida Console', serif;
 }
 
 .underline{
@@ -42,7 +43,8 @@ body {
 }
 
 header{
-  background: #0b0909;
+  background: #020202;
+  border: 2px dotted #916AF0;
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
 
@@ -57,6 +59,12 @@ header{
   align-items: center;
   min-height: 8vh;
 }
+
+footer{
+  background: #020202;
+  color: #B7AAD5;
+}
+
 
 nav{
   position: relative;
@@ -115,10 +123,13 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  background-color: #B7AAD5;
+
+  border-bottom: 2px dotted #916AF0;
 }
 .parallax-effect2 {
-  background-image: url("../img/color_code.png"), url("../img/pres_bg.svg");
-  background-color: #0b0909;
+  background-image: url("../img/blue_bell.png"), url("../img/pres_bg.svg");
   min-height: 600px;
   max-height: 1540px;
   //width: fit-content;
@@ -126,6 +137,10 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  
+  background-color: #0b0909;
+  border-bottom: 2px dotted #916AF0;
 }
 
 #parallax-container{
@@ -135,6 +150,8 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
   background-size: cover;
+
+  border-bottom: 2px dotted #916AF0;
 }
 
 // Cards
@@ -142,25 +159,28 @@ nav{
   margin: auto;
   position: relative;
   margin-top: 20vh;
-  background-color: /*rgba(68, 68, 68, 0.8);*/rgba(214, 214, 214, 0.8);
+  background-color: rgba(224, 224, 223, 0.8);
   //height: 105vh; 
   height: fit-content;
   width: 105vh;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
-  border-radius: 15px;
+  border-radius: 25px;
   font-size:36px; 
   text-align: center; 
-  font-family: 'Raleway', Arial, sans-serif
+  font-family:'Lucida Console', Arial, serif;
 }
 
-.subcard{
-  color: #d6d6d6;
+.subcard {
+  color: #0b0909;
+  background-color: #B7AAD5;
+  border-radius: 25px;
   width: 100%;
   height: auto;
   position: relative;
 }
-.subcard:hover{
+.subcard:hover {
   color: #0b0909;
+  background-color: #916AF0;
 }
 
 #comp{
@@ -178,7 +198,7 @@ nav{
 
 .scale-up-center {
   font-size: large;
-  background-color: #0b0909;
+  background-color: #B7AAD5;
   color: #0b0909;
   transform: scale(0.7);
   transition: all .5s ease-in-out;
@@ -187,7 +207,7 @@ nav{
 }
 .scale-up-center:hover {
   font-size: medium;
-  background-color: #d6d6d6;
+  background-color: #916AF0;
   color: #0b0909;
   transform: scale(1);
   border-radius: 0px;
