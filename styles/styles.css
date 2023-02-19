@@ -19,7 +19,8 @@ html {
 }
 
 body {
-  background: #8D83A5;
+  /*background: #8D83A5;*/
+  background: #0a0a0a;
   margin: 0;
   padding: 0;
   min-height: 100%;
@@ -55,8 +56,10 @@ header {
 }
 
 footer {
-  background: #020202;
-  color: #B7AAD5;
+  /*background: #020202;*/
+  background: #191919;
+  /*color: #B7AAD5;*/
+  color: #e6e6e6;
 }
 
 nav {
@@ -172,15 +175,18 @@ a {
 .subcard {
   color: #0b0909;
   background-color: #B7AAD5;
-  border-radius: 25px;
+  /*border-radius: 25px;*/
   width: 100%;
   height: auto;
   position: relative;
+  box-shadow: 0 0 10px #6C5B7B;
 }
 
 .subcard:hover {
   color: #0b0909;
   background-color: #916AF0;
+  box-shadow: 0 0 15px #6C5B7B;
+  transition: all 0.2s ease-in-out;
 }
 
 #comp {
@@ -210,7 +216,7 @@ a {
   color: #0b0909;
   transform: scale(1);
   border-radius: 0px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: 0px 2px 8px 0px #6C5B7B;
   border: 2px dotted #B7AAD5;
 }
 
